@@ -1,0 +1,25 @@
+[
+  {
+    "name": "project1",
+    "description": "Description of Project 1",
+    "imageUrl": "img.jpg",
+    "repositoryLink": "http://www.github.com/heikkiket/",
+    "demoLink": "http://localhost"
+  },
+  {
+    "name": "project2",
+    "description": "Description of Project 2",
+    "imageUrl": "img2.jpg",
+    "repositoryLink": "http://www.github.com/heikkiket/2",
+    "demoLink": "http://localhost/2"
+  },
+  {
+    "name": "project3",
+    "description": "Description of Project 3",
+    "imageUrl": "img3.jpg",
+    "repositoryLink": "http://www.github.com/heikkiket/3",
+    "demoLink": "http://localhost/2"
+  }
+]
+
+
