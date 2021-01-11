@@ -4,7 +4,10 @@ CV_DIR=static/cv
 all: cv site
 
 deploy: cv
-	npm run deploy
+	npm run generate
+	git add dist
+	git commit -m "makefile: site autogeneration"
+	git subtree push --prefix dist origin gh-pages
 
 site:
 	npm run generate
