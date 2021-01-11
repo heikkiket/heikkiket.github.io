@@ -1,13 +1,12 @@
 <template>
     <div>
         <h2>portfolio</h2>
-        <p>Tässä joitain koulussa tekemiäni ohjelmointiprojekteja.</p>
+        <p>Tässä joitain ohjelmointiprojekteja.</p>
         <ul id="projects">
           <li v-for="project in projects">
-            <button @click="selectProject(project.name)"
-                      :disabled="firstProjectFocused">
-            {{ project.name }}
-          </button>
+            <button @click="selectProject(project.name)">
+              {{ project.name }}
+            </button>
           </li>
         </ul>
         <Project v-if="selectedProject" v-bind="selectedProject"/>
