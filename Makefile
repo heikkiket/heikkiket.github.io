@@ -4,6 +4,7 @@ CV_DIR=static/cv
 all: cv site
 
 deploy: cv
+	git checkout master
 	npm run generate
 	git add dist
 	git commit -m "makefile: site autogeneration"
