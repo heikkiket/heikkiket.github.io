@@ -2,13 +2,10 @@
 <article class="projectContainer">
   <h1>{{ this.name }}</h1>
   <p>{{ this.description }}</p>
-  <a :href="fullImageUrl" target="_blank">
-    <img :src="thumbUrl" alt="Ruutukaappaus projektista" class="projectThumb">
-  </a>
-  <aside>
-    <ul>
-      <li>
-        <a :href="repositoryLink"
+
+  <ul>
+    <li>
+      <a :href="repositoryLink"
            target="_blank">
           {{ this.repositoryLinkText }}
         </a>
@@ -16,10 +13,14 @@
       <li v-if="demoLink">
         <a :href="demoLink"
            target="_blank">
-          {{ this.demoLinkText }}
-        </a>
+        {{ this.demoLinkText }}
+      </a>
     </li>
-    </ul>
+  </ul>
+  <aside>
+    <a :href="fullImageUrl">
+    <img :src="thumbUrl" alt="Ruutukaappaus projektista" class="projectThumb">
+    </a>
   </aside>
 </article>
 </template>
