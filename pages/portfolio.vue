@@ -1,16 +1,16 @@
 <template>
     <div>
         <h2>portfolio</h2>
-        <p>Tässä joitain tekemiäni projekteja.</p>
-        <button @click="previousProject()"
-                :disabled="firstProjectFocused">
-          Edellinen
-        </button>
-        <button @click="nextProject()"
-                :disabled="lastProjectFocused">
-          Seuraava
-        </button>
-        <Project v-bind="selectedProject"/>
+        <p>Tässä joitain koulussa tekemiäni ohjelmointiprojekteja.</p>
+        <ul id="projects">
+          <li v-for="project in projects">
+            <button @click="selectProject(project.name)"
+                      :disabled="firstProjectFocused">
+            {{ project.name }}
+          </button>
+          </li>
+        </ul>
+        <Project v-if="selectedProject" v-bind="selectedProject"/>
     </div>
 </template>
 
@@ -27,37 +27,23 @@ export default {
   },
   data() {
     return {
-      projectIndex: 0
-    }
-  },
-  watch: {
-  },
-  computed: {
-    selectedProject() {
-      return this.projects[this.projectIndex];
-    },
-    firstProjectFocused() {
-      return this.projectIndex === 0;
-    },
-    lastProjectFocused() {
-      return this.projectIndex === this.projects.length - 1;
+      selectedProject: ''
     }
   },
   methods: {
-    previousProject() {
-      if(!this.firstProjectFocused)
-        this.projectIndex--;
-    },
-    nextProject() {
-      if(!this.lastProjectFocused)
-        this.projectIndex++;
-    },
+    selectProject(name) {
+      this.selectedProject = projects.filter(p => p.name === name)
+    }
   }
 }
 </script>
 
 <style lang="scss">
 @import '@/assets/scss/colors.scss';
+
+#projects li {
+  display: inline;
+}
 
 button {
   background: $darkpink;

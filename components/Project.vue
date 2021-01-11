@@ -2,7 +2,7 @@
 <article class="projectContainer">
   <h1>{{ this.name }}</h1>
   <p>{{ this.description }}</p>
-  <a :href="fullImageUrl">
+  <a :href="fullImageUrl" target="_blank">
     <img :src="thumbUrl" alt="Ruutukaappaus projektista" class="projectThumb">
   </a>
   <aside>
@@ -13,7 +13,7 @@
           {{ this.repositoryLinkText }}
         </a>
       </li>
-      <li>
+      <li v-if="demoLink">
         <a :href="demoLink"
            target="_blank">
           {{ this.demoLinkText }}
