@@ -4,11 +4,11 @@
         <p>Tässä joitain tekemiäni projekteja.</p>
         <button @click="previousProject()"
                 :disabled="firstProjectFocused">
-          prev
+          Edellinen
         </button>
         <button @click="nextProject()"
                 :disabled="lastProjectFocused">
-          next
+          Seuraava
         </button>
         <Project v-bind="selectedProject"/>
     </div>

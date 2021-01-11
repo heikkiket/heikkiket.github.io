@@ -2,10 +2,24 @@
 <article class="projectContainer">
   <h1>{{ this.name }}</h1>
   <p>{{ this.description }}</p>
-  <img src="/img.jpg" width="200" height="200" alt="Ruutukaappaus projektista">
+  <a :href="fullImageUrl">
+    <img :src="thumbUrl" alt="Ruutukaappaus projektista" class="projectThumb">
+  </a>
   <aside>
-    <a href="#">Linkki Github</a>
-    <a href="#">Linkki demoon</a>
+    <ul>
+      <li>
+        <a :href="repositoryLink"
+           target="_blank">
+          {{ this.repositoryLinkText }}
+        </a>
+      </li>
+      <li>
+        <a :href="demoLink"
+           target="_blank">
+          {{ this.demoLinkText }}
+        </a>
+    </li>
+    </ul>
   </aside>
 </article>
 </template>
@@ -25,6 +39,22 @@ export default {
     'imageUrl': {
       type: String,
       required: true
+    },
+    'repositoryLink': {
+      type: String,
+      required: false
+    },
+    'repositoryLinkText': {
+      type: String,
+      required: false
+    },
+    'demoLink': {
+      type: String,
+      required: false
+    },
+    'demoLinkText': {
+      type: String,
+      required: false
     }
   },
   data () {
@@ -34,10 +64,32 @@ export default {
   watch: {
   },
   computed: {
+    thumbUrl() {
+      if (this.imageUrl === "")
+        return '';
+      let filenameArr = this.imageUrl.split('.');
+      let ext = filenameArr.pop();
+      filenameArr.push('thumb', ext);
+      return this.webpackRequest(filenameArr.join('.'));
+    },
+    fullImageUrl() {
+      if (this.imageUrl === "")
+        return '';
+      return this.webpackRequest(this.imageUrl);
+    }
+  },
+  methods: {
+    webpackRequest(url) {
+      return require(`../assets/img/projects/${url}`);
+    }
   }
 }
 </script>
 
 <style scoped>
+
+.projectThumb {
+  max-width: 100%;
+}
 
 </style>

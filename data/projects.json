@@ -1,22 +1,24 @@
 [
   {
-    "name": "project1",
-    "description": "Description of Project 1",
-    "imageUrl": "img.jpg",
-    "repositoryLink": "http://www.github.com/heikkiket/",
-    "demoLink": "http://localhost"
+    "name": "FinnaSearch",
+    "description": "Pieni valokuvahakutyökalu. Etsii valokuvia Finna-tietokannasta. Webohjelmointikurssin sivussa huvin vuoksi syntynyt työ.",
+    "imageUrl": "finna.png",
+    "repositoryLink": "https://github.com/heikkiket/finnaSearch",
+    "repositoryLinkText": "Projekti GitHubissa",
+    "demoLink": "https://heikkiket.kapsi.fi/finna/",
+    "demoLinkText": "Projektin demo"
   },
   {
-    "name": "project2",
+    "name": "Painonhallintasovellus",
     "description": "Description of Project 2",
-    "imageUrl": "img2.jpg",
+    "imageUrl": "",
     "repositoryLink": "http://www.github.com/heikkiket/2",
     "demoLink": "http://localhost/2"
   },
   {
     "name": "project3",
     "description": "Description of Project 3",
-    "imageUrl": "img3.jpg",
+    "imageUrl": "",
     "repositoryLink": "http://www.github.com/heikkiket/3",
     "demoLink": "http://localhost/2"
   }
