@@ -9,18 +9,20 @@
     "demoLinkText": "Projektin demo"
   },
   {
-    "name": "Painonhallintasovellus",
-    "description": "Description of Project 2",
-    "imageUrl": "",
-    "repositoryLink": "http://www.github.com/heikkiket/2",
-    "demoLink": "http://localhost/2"
+    "name": "dEdit",
+    "description": "Halusin testailla D-kielellä ohjelmoimista, ja opetella tekstieditorien tekemistä. Jossain innostuksen puuskassa päätin sitten kirjoittaa koko homman toimimaan terminaalissa. Otin siis pohjaksi netistä löytämäni tutoriaalin tekstieditorin kirjoittamiseksi C:llä. Tulipahan tutuksi escape-sekvenssit ja 70-luvun Unix-rajapintafilosofia, kun käytin Terminfo-tietorakennetta terminaalin kanssa jutteluun. Loppujen lopuksi koodista tuli aika C-mäistä.",
+    "imageUrl": "dedit.png",
+    "repositoryLink": "http://www.github.com/heikkiket/dEdit",
+    "repositoryLinkText": "Projekti GitHubissa"
   },
   {
-    "name": "project3",
-    "description": "Description of Project 3",
-    "imageUrl": "",
-    "repositoryLink": "http://www.github.com/heikkiket/3",
-    "demoLink": "http://localhost/2"
+    "name": "HSL Bikes",
+    "description": "Koulukurssin yhteydessä tekemäni pieni sovellus, jolla voi katsella HSL-kaupunkipyörien määriä eri asemilla. Juttelee HSL:n GraphQL-rajapinnan kanssa.",
+    "imageUrl": "hslbikes.png",
+    "repositoryLink": "https://github.com/heikkiket/hslbikes",
+    "demoLink": "https://heikkiket.kapsi.fi/hslbikes/",
+    "repositoryLinkText": "Projekti GitHubissa",
+    "demoLinkText": "Projektin demo"
   }
 ]
 
