@@ -24,6 +24,11 @@ export default {
     return {
     }
   },
+  head() {
+    return {
+      title: "Heikki Ketoharjun portfolio"
+    }
+  },
   watch: {
   },
   computed: {
