@@ -7,7 +7,7 @@
           <dt>Sähköposti</dt>
           <dd>heikki . ketoharju [at] iki.fi</dd>
           <dt>Sosiaalinen media</dt>
-          <dd><a href="https://www.linkedin.com/in/heikki-ketoharju§/">Linkedin-profiilini</a></dd>
+          <dd><a href="https://www.linkedin.com/in/heikki-ketoharju/">Linkedin-profiilini</a></dd>
         </dl>
     </div>
 </template>
