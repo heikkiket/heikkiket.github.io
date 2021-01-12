@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>portfolio</h2>
-        <p>Tässä joitain ohjelmointiprojekteja.</p>
+        <p>Tässä joitain ohjelmointiprojekteja. Paina nappeja jotta saat kuvaukset esiin.</p>
         <ul id="projects">
           <li v-for="project in projects">
             <button @click="selectProject(project.name)">

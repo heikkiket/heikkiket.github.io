@@ -4,10 +4,6 @@ author: 'Heikki Ketoharju'
 
 image: './face.png'
 
-address: | 
-  Pengerkatu 17 c 76 \
-  00500 Helsinki
-
 tel: 0509189139
 email: heikki.ketoharju@iki.fi
 
@@ -32,6 +28,11 @@ Tietotekniikkaprojekteja ja -töitä
 
 : Diarium-potilaskortisto-ohjelmiston kehittämistä. Laajensin ohjelmiston REST-rajapintaa, ja kehitin uutta nettiajanvarausta JavaScriptin ja Vuen avulla. Tiimissä oli lisäkseni toinen ohjelmoija, jonka kanssa työt jaettiin. Itse tein enemmän backendia, toinen ohjelmoija enemmän frontendia.
 
+Kevät 2020
+: **Muutamia pieniä JavaScript-sovelluksia**
+
+: Sovellukset on toteutettu Vuella, osassa Express-backend. Painonhallintasovellukseen voi tilastoida päivittäisen painonsa, HSLBikes näyttää kaupunkipyörien määrät eri pyöräasemilla ja Finna-haku hakee valokuvia kirjaston rajapinnasta.
+
 Kesä-syksy 2018	
 : **Python3- ja GTK-ohjelmointia; Meld**
 
@@ -42,15 +43,11 @@ Kesä 2018
 
 : Kesätyö DNA:n service deskissä. Yritysasiakkaiden palvelemista, teknistä vianselvitystä, konfiguraatiomuutosten tekemistä. Ciscon ja Huawein ym. reitittimiä & kytkimiä, palomuurikonfiguraatioita, DNS-tietueita jne. Lisäksi Linux-järjestelmiin liittyvien ohjeiden ja skriptien laatimista.
 
-Kevät 2020
-: **HSL-bikes**
-
-: Pieni sovellus, joka näyttää HSL-kaupunkipyörien määrät eri pyöräasemilla. Käyttää HSL:n GraphQL-rajapintaa. Toteutettu Vuella.
 
 2008 – 2018 
 : **Wordpress-sivustoja eri tahoille**
 
- : Järjestelmän asennus, konfigurointi, ulkoasuteeman toteutus, ylläpito, käyttökoulutus.
+ : Tein näitä satunnaisesti sivutöinäni. Järjestelmän asennus, konfigurointi, ulkoasuteeman toteutus, ylläpito, käyttökoulutus.
  mm. PAND – taiteilijat rauhan puolesta, Olento -taiteilijaryhmä, Suomen sosiaalifoorumi, Olavin Jazz ry, TTIP-verkosto
 
 2007
@@ -106,4 +103,3 @@ Suomen sosiaalifoorumi
 <!-- ---- -->
 
 <!-- > <heikki.ketoharju@iki.fi> • 050 918 9139 • \ -->
-<!-- > Pengerkatu 17 C 76 - Helsinki -->
