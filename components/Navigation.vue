@@ -49,17 +49,17 @@ nav {
     padding: 0 1em;
     border-left: 1px solid $menu-separator;
   }
-  
+
   li:first-child {
     padding-left: 0;
     border-left: 0;
   }
-  
+
   a {
     color: $menu-text;
     transition: color 0.5s;
   }
-  
+
 a:hover {
   color: $menu-hover;
 }
