@@ -33,12 +33,20 @@ export default {
     selectProject(name) {
       this.selectedProject = projects.filter(p => p.name === name)
     }
+  },
+  mounted() {
+    this.selectedProject = projects[0];
   }
 }
 </script>
 
 <style lang="scss">
 @import '@/assets/scss/colors.scss';
+
+#projects {
+    padding-left: 0;
+    border-bottom: 1px solid black;
+}
 
 #projects li {
   display: inline;
@@ -73,4 +81,4 @@ button:disabled:hover
   transition: all 0s;
 }
 </style>
- 
+
