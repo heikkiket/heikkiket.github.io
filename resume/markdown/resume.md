@@ -21,7 +21,11 @@ email: heikki.ketoharju@iki.fi
 Tietotekniikkaprojekteja ja -töitä
 ---------
 Kevät 2021
-: **  **
+: **Innovaatioprojekti: anturin etäluentaa**
+
+: Teknologiat: Node, React, Scala, MariaDB, InfluxDB
+
+: Ryhmämme toteutti ohjelmiston, joka kerää dataa etäluettavista antureista ja näyttää sen kartalla. Anturin puoli ohjelmoitiin C++:lla, pilven päässä käytettiin ensin valmista palvelinohjelmistoa, ja siitä data lähetettiin Scala/Akka-sovellukselle. Olin osa tasaveroista softatiimiä ja keskeisesti vastuussa, että pilven pään softa saatiin valmiiksi aikataulussa ja speksien mukaan.
 
 15.5.2019 -
 : **Web-ohjemoija, Nordhealth**
@@ -86,12 +90,12 @@ Koulutus
 englanti 
 : suullinen erinomainen, kirjallinen hyvä
 
-## Luottamustoimet ##
+<!-- ## Luottamustoimet ## -->
 
-Suomen sosiaalifoorumi
-: ohjausryhmän puheenjohtaja 2016, 2018, 2019
+<!-- Suomen sosiaalifoorumi -->
+<!-- : ohjausryhmän puheenjohtaja 2016, 2018, 2019 -->
 
-: Suomen sosiaalifoorumi on ikäänkuin järjestömessut: viikonlopun mittainen tapahtuma, jossa noin 1500 kävijää, 150 järjestöä, 60 keskustelutilaisuutta ja muutama kymmen esittelypöydän pitäjä. Hanketta varten kootaan muutaman tuhannen euron rahoitus, palkataan projektityöntekijä ja haalitaan vapaaehtoisia. Ohjausryhmän puheenjohtaja kantaa päävastuun järjestelyjen läpiviennistä.
+<!-- : Suomen sosiaalifoorumi on ikäänkuin järjestömessut: viikonlopun mittainen tapahtuma, jossa noin 1500 kävijää, 150 järjestöä, 60 keskustelutilaisuutta ja muutama kymmen esittelypöydän pitäjä. Hanketta varten kootaan muutaman tuhannen euron rahoitus, palkataan projektityöntekijä ja haalitaan vapaaehtoisia. Ohjausryhmän puheenjohtaja kantaa päävastuun järjestelyjen läpiviennistä. -->
 
 <!-- ## Muut taidot ## -->
 
