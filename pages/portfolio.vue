@@ -1,7 +1,7 @@
 <template>
     <div>
         <h2>portfolio</h2>
-        <p>Tässä joitain ohjelmointiprojekteja. Paina nappeja jotta saat kuvaukset esiin.</p>
+        <p>Tässä muutamia pieniä ohjelmointiprojekteja. Paina nappeja, jotta saat kuvaukset esiin.</p>
         <ul id="projects">
           <li v-for="project in projects">
             <button @click="selectProject(project.name)">
@@ -33,12 +33,20 @@ export default {
     selectProject(name) {
       this.selectedProject = projects.filter(p => p.name === name)
     }
+  },
+  mounted() {
+    this.selectedProject = projects[0];
   }
 }
 </script>
 
 <style lang="scss">
 @import '@/assets/scss/colors.scss';
+
+#projects {
+    padding-left: 0;
+    border-bottom: 1px solid black;
+}
 
 #projects li {
   display: inline;
@@ -73,4 +81,4 @@ button:disabled:hover
   transition: all 0s;
 }
 </style>
- 
+
