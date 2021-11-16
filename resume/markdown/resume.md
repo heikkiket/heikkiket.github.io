@@ -20,13 +20,15 @@ email: heikki.ketoharju@iki.fi
 
 Tietotekniikkaprojekteja ja -töitä
 ---------
+Kevät 2021
+: **  **
 
 15.5.2019 -
-: **Web-ohjemoija, Finnish Net Solutions**
+: **Web-ohjemoija, Nordhealth**
 
 : Teknologiat: PHP, JavaScript, CakePHP, Vue
 
-: Diarium-potilaskortisto-ohjelmiston kehittämistä. Laajensin ohjelmiston REST-rajapintaa, ja kehitin uutta nettiajanvarausta JavaScriptin ja Vuen avulla. Tiimissä oli lisäkseni toinen ohjelmoija, jonka kanssa työt jaettiin. Itse tein enemmän backendia, toinen ohjelmoija enemmän frontendia.
+: Diarium-potilaskortisto-ohjelmiston kehittämistä. Uudistin sovelluksen nettiajanvarauksen yhden sivun Vue-sovellukseksi. Samalla laajensin ohjelmiston REST-rajapintaa. Projektissa oli lisäkseni toinen ohjelmoija, jonka kanssa työt jaettiin. Itse tein enemmän backendia, toinen ohjelmoija enemmän frontendia.
 
 Kevät 2020
 : **Muutamia pieniä JavaScript-sovelluksia**
@@ -47,27 +49,26 @@ Kesä 2018
 2008 – 2018 
 : **Wordpress-sivustoja eri tahoille**
 
- : Tein näitä satunnaisesti sivutöinäni. Järjestelmän asennus, konfigurointi, ulkoasuteeman toteutus, ylläpito, käyttökoulutus.
- mm. PAND – taiteilijat rauhan puolesta, Olento -taiteilijaryhmä, Suomen sosiaalifoorumi, Olavin Jazz ry, TTIP-verkosto
+ : Tein näitä satunnaisesti sivutöinäni. Järjestelmän asennus, konfigurointi, ulkoasuteeman toteutus, ylläpito, käyttökoulutus. Asiakkaat: pieniä järjestöjä ja paikallisia bändejä
 
 2007
 : **Oman julkaisujärjestelmän laatiminen**
 
-: Flatfile-pohjainen julkaisujärjestelmä PHP:llä. Tavoitteet yksinkertaisuus ja nopeus. Asiakkaina paikallinen bändi Grandeville, Joensuun Rauhanryhmä
+: Flatfile-pohjainen julkaisujärjestelmä PHP:llä. Tavoitteet yksinkertaisuus ja nopeus. Asiakkaina pieni järjestö ja paikallinen bändi.
 
 Osaaminen
 ---------
 
-Ohjelmointikielet ja teknologiat, joilla on tullut tehtyä: PHP, JavaScript, Python, Java, C++, Bash, D. Lisäksi Scalan alkeet. Web-teknologioista tuttuja ovat HTML/CSS/Vue. Kokemusta löytyy Linux-järjestelmien konfiguroinnista. Lisäksi hallitsen säännölliset lausekkeet (regular expressions).
+Ohjelmointikielet ja teknologiat, joilla on tullut tehtyä: PHP, JavaScript, Python, Java, C/C++, Bash, D ja Scala. Web-teknologioista tuttuja ovat HTML/CSS/Vue ja Reactista alkeet. Osaan REST-rajapintoja ja GraphQL:ää. Kokemusta löytyy Linux-järjestelmien konfiguroinnista. (Tiedän mitä ovat grep, awk ja sed, ja miten vimin substitute toimii.) Lisäksi hallitsen perustasolla säännölliset lausekkeet (regular expressions). 
 
 Olen ollut täysipäiväinen Linux-käyttäjä vuodesta 2006 lähtien. Tiedän yhtä sun toista järjestelmän toiminnasta, Apache-palvelinten ja MariaDB:n säätämisestä ja Systemd-järjestelmästä.  Rentoudun iltaisin vastailemalla ihmisten Linuxia koskeviin kysymyksiin netissä.
 
 Koulutus
 ----------
-2018 -
+2018 - 2021
 : Tieto- ja viestintätekniikan insinööri (AMK), Metropolia
 
-: Opinnot alkoivat tammikuussa 2018
+: Opinnot alkoivat tammikuussa 2018, valmistun jouluna 2021.
 
 2016	
 : Tietojenkäsittelytieteen opintoja avoimessa yliopistossa
